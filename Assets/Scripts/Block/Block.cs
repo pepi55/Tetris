@@ -57,6 +57,7 @@ public class Block : MonoBehaviour {
 				transform.position += new Vector3(0.0f, 1.0f, 0.0f);
 
 				Grid.deleteFullRows();
+				GlobalVariables.score += 105;
 
 				if (deleteParent != null) {
 					deleteParent();
